@@ -1,0 +1,164 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #21212e;
+  font-family: brandon-grotesque, sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.header-image {
+  height: 36rem;
+  position: relative;
+  top: -8%;
+}
+
+.header-image-1 {
+  left: 50%;
+  z-index: -1;
+}
+
+.header-image-2 {
+  z-index: 1;
+}
+
+.header-image-3 {
+  left: -50%;
+  z-index: -1;
+}
+
+.store-images {
+  height: 7rem;
+  cursor: pointer;
+}
+
+.aboutUs {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.phone-background-1,
+.phone-background-2 {
+  height: 26rem;
+  width: 13rem;
+  position: absolute;
+  border-radius: 20px;
+  left: 36%;
+  top: 6%;
+}
+
+.phone-background {
+  height: 36rem;
+}
+.phone-background-1 {
+  background-color: #a80fde;
+  transform: rotateZ(-15deg);
+}
+
+.phone-background-2 {
+  background-color: #3ca6db;
+  transform: rotateZ(15deg);
+}
+
+.showcase-container{
+    overflow-x: scroll;
+    margin-top: 2rem;
+    scroll-behavior: smooth;
+}
+
+.showcase-img{
+    height: 25rem;
+}
+
+.showcase-container::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.next-image-btn{
+    border-radius: 50%;
+    background-color:#fff;
+    position: absolute;
+    right: 10%;
+    top: 55%;
+    box-shadow: 0px 0px 10px 4px grey;
+}
+
+.features-content{
+  width: 80%;
+}
+
+.card{
+  background-color: #20202c;
+  width: 95%;
+  box-shadow: 0px 0px 15px 10px #191922;
+}
+.card-header{
+  background-color: #262634
+}
+
+.review-image{
+  height: 6rem;
+  width: 6rem;
+  border-radius:50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.input{
+  background-color: #fff;
+  border-radius: 25px;
+  width: 30rem;
+  font-size: 1.1rem;
+  padding:0.5rem 1rem !important;
+  box-shadow: 0px 0px 10px 5px #191922;
+  outline:none
+}
+
+.subscribeBtn{
+  background-color: #46c2ff;
+  padding:0.4rem 3.5rem;
+  box-shadow: 0px 0px 10px 5px #191922;
+  /* max-width: 130px; */
+}
+
+.social-icons{
+  height: 2rem;
+  width:2rem;
+  margin: 0 .7rem;
+}
+@media (max-width: 600px) {
+  .header-image {
+    height: 22rem;
+  }
+
+  .store-images {
+    height: 6rem;
+  }
+
+  .phone-background-1,
+  .phone-background-2 {
+    height: 16.5rem;
+    width: 7rem;
+    left: 34%;
+    top: 4%;
+  }
+
+  .phone-background-1 {
+    transform: rotateZ(-25deg);
+  }
+  .phone-background-2 {
+    transform: rotateZ(25deg);
+  }
+}
